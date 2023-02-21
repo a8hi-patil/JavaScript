@@ -1,0 +1,15 @@
+const Add = (a, b) => {
+    console.log(`Addition of ${a} and ${b} is = `, a + b);
+}
+const Subtract = (a, b) => {
+    console.log(`Subtraction of ${a} and ${b} is = `, a - b);
+}
+const Multiplication = (a, b) => {
+    console.log(`Multiplication of ${a} and ${b} is = `, a * b);
+}
+const Division = (a, b) => {
+    console.log(`Division of ${a} and ${b} is = `, a / b);
+}
+
+
+module.exports = { Add, Subtract, Multiplication, Division }
